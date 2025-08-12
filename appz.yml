@@ -4,7 +4,7 @@ app:
     notify: asunil@ecloudcontrol.com
 
 build:
-    version: 1.19
+    version: 0.4
     env: DEV
     build_file: none
     output_files: output/*.zip
