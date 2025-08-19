@@ -8,10 +8,10 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: vault-1.19
+    image_template: vault-1.2
 
 deploy:
-    context: prasanth-lowtouch/DEV
+    context: alpha/DEV
     type: statefulset
     ingress: none
     replicas: 1
@@ -30,6 +30,6 @@ volumes:
     size: 5Gi
 
 properties:
-    revision: 16
+    revision: 27
     ENABLE_AUTO_PASSWORD: True
     
